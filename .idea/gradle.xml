@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BlurayUFR" />
+            <option value="$PROJECT_DIR$/Donghub" />
+            <option value="$PROJECT_DIR$/GfyMultimedx" />
+            <option value="$PROJECT_DIR$/Hanime" />
+            <option value="$PROJECT_DIR$/Idlix" />
+            <option value="$PROJECT_DIR$/LK21" />
+            <option value="$PROJECT_DIR$/LayarAsia" />
+            <option value="$PROJECT_DIR$/MovieBox" />
+            <option value="$PROJECT_DIR$/PusatFilm" />
+            <option value="$PROJECT_DIR$/Rebahin" />
+            <option value="$PROJECT_DIR$/SemiRebahin" />
+          </set>
+        </option>
+        <option name="myGradleHome" value="C:\gradle-8.14.6" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

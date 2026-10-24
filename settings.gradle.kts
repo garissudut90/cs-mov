@@ -1,4 +1,4 @@
-rootProject.name = "nonton-indo"
+rootProject.name = "cs-mov"
 
 File(rootDir, ".").eachDir { dir ->
     if (dir.name != ".git" && dir.name != ".github" && dir.name != ".gradle" && File(dir, "build.gradle.kts").exists()) {

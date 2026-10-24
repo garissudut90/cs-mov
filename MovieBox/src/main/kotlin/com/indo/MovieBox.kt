@@ -22,8 +22,9 @@ class MovieBox : MainAPI() {
 
     override val mainPage = mainPageOf(
         "872031290915189720" to "Trending",
+        "8821254238245470240" to "Trending Movies",
         "4380734070238626200" to "K-Drama: New Release",
-        "6528093688173053896" to "Trending Indonesia"
+        "6528093688173053896" to "Film Indonesia Lagi Ngetren"
     )
 
     private val baseHeaders = mapOf(
