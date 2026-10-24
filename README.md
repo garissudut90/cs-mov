@@ -10,7 +10,7 @@
   <p align="center">
     CloudStream 3 Extensions untuk Situs Streaming Indonesia
     <br />
-    Nonton anime dan film favoritmu langsung dari CloudStream
+    https://raw.githubusercontent.com/garissudut90/cs-mov/builds/repo.json
   </p>
 
   <p align="center">
