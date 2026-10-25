@@ -23,8 +23,21 @@ class MovieBox : MainAPI() {
     override val mainPage = mainPageOf(
         "872031290915189720" to "Trending",
         "8821254238245470240" to "Trending Movies",
-        "4380734070238626200" to "K-Drama: New Release",
-        "6528093688173053896" to "Film Indonesia Lagi Ngetren"
+        "4809349160627587984" to "Trending Drama",
+        "6528093688173053896" to "Trending Indonesian Movies",
+//        "567783349092340776" to "🔥Hot Short TV",
+        "5283462032510044280" to "Trending Indonesian Drama💗",
+        "4380734070238626200" to "K-Drama: New Release\t",
+//        "8617025562613270856" to "Masuk ke Dunia Anime\uD83C\uDF1F",
+        "4019055174353407000" to "Recently Added",
+        "1469286917119311888" to "Tren Barat",
+        "8624142774394406504" to "Trending C-Drama",
+        "5848753831881965888" to "Indonesian Horror Stories 💀",
+        "3770510954220470720" to "Waktu Bersama Keluarga",
+        "5549742004948601072" to "Drama Dubbing Indonesia",
+        "7132534597631837112" to "Film Anime Penuh Jiwa Anak",
+        "5863917898430924656" to "Action & Crime 👊",
+        "7267828779190834440" to "100% CINTA 💗"
     )
 
     private val baseHeaders = mapOf(
