@@ -115,6 +115,24 @@ class MovieBox : MainAPI() {
         is String -> v.toIntOrNull()
         else -> null
     }
+    
+    private val blockedGenres = setOf(
+    "adult", "erotic", "erotica", "18+", "sex", "porn", "hentai"
+    )
+    
+    private val blockedTitleRegex = Regex(
+        "(?i)(?<!\\w)(18\\+|xxx|erotic|erotica|porn|bokep)(?!\\w)"
+    )
+    
+    private fun isAdultSubject(s: Map<*, *>): Boolean {
+        val genres = s["genre"]?.toString()
+            ?.split(",")
+            ?.map { it.trim().lowercase() }
+            .orEmpty()
+        if (genres.any { it in blockedGenres }) return true
+        val title = s["title"]?.toString().orEmpty()
+        return blockedTitleRegex.containsMatchIn(title)
+    }
 
     private fun toSubjectList(raw: String): List<Map<String, Any?>> {
         val root = tryParseJson<Map<String, Any?>>(raw) ?: return emptyList()
