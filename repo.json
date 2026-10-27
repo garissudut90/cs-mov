@@ -1,0 +1,8 @@
+{
+    "name": "CS Movie",
+    "description": "Kumpulan CloudStream 3 extensions untuk situs streaming Indonesia",
+    "manifestVersion": 1,
+    "pluginLists": [
+        "https://raw.githubusercontent.com/garissudut90/cs-mov/builds/plugins.json"
+    ]
+}
