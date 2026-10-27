@@ -12,7 +12,7 @@ class MovieBox : MainAPI() {
     override var mainUrl = "https://themoviebox.org"
     private val apiBase = "https://h5-api.aoneroom.com"
 
-    override var name = "MovieBox"
+    override var name = "BoxMovie"
     override val hasMainPage = true
     override var lang = "id"
     override val hasDownloadSupport = true
