@@ -1,15 +1,10 @@
 version = 1
 
+
 cloudstream {
     language = "id"
-    description = "Sflix - Movie & Series subtitle indonesia"
-    authors = listOf("Asm0d3usX")
-	isCrossPlatform = true
+    authors = listOf("ExtremeBoy")
     status = 1
-    tvTypes = listOf(
-        "TvSeries",
-        "Movie",
-        "Anime",
-        "AsianDrama",
-    )
+    tvTypes = listOf("Movie", "TvSeries", "Anime", "AsianDrama")
+    iconUrl = "https://www.google.com/s2/favicons?domain=http://sflix.com&sz=%size%"
 }
