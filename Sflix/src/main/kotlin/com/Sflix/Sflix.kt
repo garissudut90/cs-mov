@@ -27,7 +27,7 @@ class Sflix : MainAPI() {
 		"5283462032510044280" to "Indonesian Drama",
 		"997144265920760504" to "Hollywood",
 		"4380734070238626200" to "K-Drama",
-		"5004039650198045488" to "Comedy",
+		"5004039650198045488" to "Family",
 		"5307082080063488480" to "Western TV",
 		"8617025562613270856" to "Anime",
 		"5549742004948601072" to "Dub Indo",
@@ -39,7 +39,7 @@ class Sflix : MainAPI() {
 		"1164329479448281992" to "Thai-Drama",
 		"4753014112567937896" to "The Hero",
 		"5848753831881965888" to "Horror",
-		"7749480172839487888" to "Family"
+		"7749480172839487888" to "Comedy Family"
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
