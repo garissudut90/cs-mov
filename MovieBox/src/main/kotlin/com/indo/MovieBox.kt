@@ -28,6 +28,7 @@ class MovieBox : MainAPI() {
 //        "567783349092340776" to "🔥Hot Short TV",
         "5283462032510044280" to "Trending Indonesian Drama💗",
         "4380734070238626200" to "K-Drama: New Release\t",
+        "7749480172839487888" to "Comedy Family",
 //        "8617025562613270856" to "Masuk ke Dunia Anime\uD83C\uDF1F",
         "4019055174353407000" to "Recently Added",
         "1469286917119311888" to "Tren Barat",
